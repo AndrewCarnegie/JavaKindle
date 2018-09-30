@@ -1,0 +1,53 @@
+package com.jb.backend.webserver.java.j2se.coretechnology.abstractclassandinterface;
+/**
+*@author Andy YE
+*@date 2018年9月5日上午11:02:57
+*
+*	实现方式：
+*	定义：使用abstract修饰的类
+*	作用：作为基类且只能作为基类使用，俗称模板
+*	优点：
+*	缺点：
+*	使用场景：
+*   前提要点：
+*   	a.抽象类和抽象方法必须使用abstract修饰
+*   	b.抽象类不可直接通过new实例化
+*   	c.抽象方法只申明，不实现，就是没有{}大括号部分
+*   	d.含有抽象方法的类必须被声明为抽象类，其子类必须实现抽象父类的所有抽象方法，否则不能被实例化
+*   	  换句话说，如果子类中还有未实现的抽象方法，那么该子类仍然是抽象类
+*/
+
+public class AbstractclassAndInterface {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ImplementationAbstractBaseClass iab = new ImplementationAbstractBaseClass();
+		iab.abstractMethod1();
+		iab.abstractMethod2();
+	}
+
+}
+
+
+abstract class AbstractBaseClass{
+	abstract void abstractMethod1();
+	abstract void abstractMethod2();
+}
+
+class ImplementationAbstractBaseClass extends AbstractBaseClass{
+
+	@Override
+	void abstractMethod1() {
+		// TODO Auto-generated method stub
+		System.out.println("The abstract method 1 has been implemented.");
+	}
+
+	@Override
+	void abstractMethod2() {
+		// TODO Auto-generated method stub
+		System.out.println("The abstract method 2 has been implemented.");
+	}
+	
+}
+
+

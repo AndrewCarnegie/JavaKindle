@@ -1,0 +1,24 @@
+package com.jb.backend.webserver.java.j2se.coretechnology.abstractclassandinterface;
+/**
+*@author Andy YE
+*@date 2018年9月10日下午10:27:53
+*
+*	实现方式：使用abstract关键字的类
+*	定义：含有抽象方法的类
+*	作用：作为基类，作为模板
+*	优点：无需实现所有方法
+*	缺点：只能支持单继承
+*	使用场景：
+*   前提要点：
+*/
+
+public class Abstractclass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+

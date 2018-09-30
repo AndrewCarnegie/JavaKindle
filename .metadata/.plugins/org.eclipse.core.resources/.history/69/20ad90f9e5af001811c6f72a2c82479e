@@ -1,0 +1,23 @@
+package com.jb.backend.webserver.java.j2se.coretechnology.encapsulation;
+/**
+*@author Andy YE
+*@date 2018年9月4日上午9:41:13
+*
+*	实现方式：
+*	定义：
+*	作用：
+*	优点：
+*	缺点：
+*	使用场景：
+*/
+
+public class EncapsulationUnderstand {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+

@@ -1,0 +1,61 @@
+package com.jb.backend.webserver.java.j2se.coretechnology.polymorphism;
+/**
+*@author Andy YE
+*@date 2018年9月4日上午10:26:55
+*
+*	实现方式：
+*	定义：一种类型表现出多种形态
+*		在Java中，多态分两类：
+*			a.方法多态性，体现在方法重载和覆盖上
+*			     方法重载：同一个方法，方法名相同，参数的类型，个数，顺序不同；方法体也不同
+*			    方法重写（覆写）：同一个方法，在不同的子类中有不同的方法体实现，从而完成不同的功能实现
+*			b.对象多态性，体现在父子对象的转型上
+*			  允许将父对象设置成与一个或者多个子对象相对的技术；通过赋值，父对象可根据所赋值的不同子对象，
+*			 以子对象的特性加以运作。多态意味着相同的（父类）信息发送给不同的子对象，每个子对象会表现出不同的形态
+*			c.多态的核心概念：子类对象可以视作为父类对象
+*	作用：
+*	优点：
+*	缺点：
+*	使用场景：
+*   前提要点：
+*/
+
+public class PolymorphismUnderstand {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Animals fish = new Fish();
+		Animals bird = new Bird();
+		Animals horse = new Horse();
+		fish.move();
+		bird.move();
+		horse.move();
+	}
+
+}
+
+abstract class Animals{
+	abstract void move();
+}
+
+
+class Fish extends Animals{
+	@Override
+	void move() {
+		System.out.println("I move in the water");
+	}
+}
+
+class Bird extends Animals{
+	@Override
+	void move() {
+		System.out.println("I fly in the sky");
+	}
+}
+
+class Horse extends Animals{
+	@Override
+	void move() {
+		System.out.println("I run on the road");
+	}
+}

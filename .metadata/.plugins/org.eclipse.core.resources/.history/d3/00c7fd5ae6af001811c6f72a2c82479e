@@ -1,0 +1,45 @@
+package com.jb.backend.webserver.java.j2se.coretechnology.encapsulation;
+/**
+*@author Andy YE
+*@date 2018年9月4日上午9:41:13
+*
+*	实现方式：
+*	定义：将描述某类食物的数据与处理这些数据的函数封装在一起所形成的有机体，称为类
+*	作用：a.类中的私有数据在类的外部不能直接使用，外部只能通过类的公共接口方法来处理类中的数据
+*		b.封装的目的是增强安全性和简化编程，使得类的用户只需了解类接口（方法）的用途并通过访问修饰来合理使用接口，
+*		  而无需了解类接口（方法）以及类的内部实现
+*		c.象形比喻：一个对象可被看做鸡蛋的三重构造：
+*				属性（attribute）好比蛋黄，它隐藏最深，不能直接接触，表示对象状态
+*				行为（behavior）好比蛋白，它可经由接口与外界交互来改变内部属性，并把这种改变通过接口呈现出来
+*				接口（interface）好比蛋壳，它可与外部接触，外部只能通过公开接口方法来改变对象内部属性
+*	优点：
+*	缺点：
+*	使用场景：
+*/
+
+public class EncapsulationUnderstand {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Encapsulation en = new Encapsulation();
+		en.setAttribute1("attribute1");
+		System.out.println(en.getAttribute1());
+	}
+
+}
+
+
+class Encapsulation{
+	private String attribute1;
+
+	public String getAttribute1() {
+		return attribute1;
+	}
+
+	public void setAttribute1(String attribute1) {
+		this.attribute1 = attribute1;
+	}
+	
+}
+
+

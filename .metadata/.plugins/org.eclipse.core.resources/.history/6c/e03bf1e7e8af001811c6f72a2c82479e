@@ -1,0 +1,44 @@
+package com.jb.backend.webserver.java.j2se.coretechnology.inheritance;
+/**
+*@author Andy YE
+*@date 2018年9月4日上午10:02:08
+*
+*	实现方式：
+*	定义：在原有类的基础上通过扩展成员来组建一个新类
+*	作用：软件复用，通过继承，进一步扩展新特性，适应新需求。
+*	优点：
+*	缺点：
+*	使用场景：盖房子前，首先是画图纸；图纸规划好，可以造很多个房子。基本图纸也可以通过扩展增加新的特性，建造特点各异的房子
+*	前提要点：a.重视is-a关系，类A和类B只有具有is-a关系，才是父子类的关系
+*/
+
+public class InheritanceUnderstand {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+class InheritanceBase{
+	private String inheritancebase;
+
+	public String getInheritancebase() {
+		return inheritancebase;
+	}
+
+	public void setInheritancebase(String inheritancebase) {
+		this.inheritancebase = inheritancebase;
+	}
+
+	
+}
+
+class InheritanceDerived extends InheritanceBase{
+	private String inheritanceDerived;
+	
+	
+}
+
+

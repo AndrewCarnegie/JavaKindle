@@ -1,0 +1,24 @@
+package com.jb.backend.webserver.java.j2se.coretechnology.inheritance;
+/**
+*@author Andy YE
+*@date 2018年9月4日上午10:02:08
+*
+*	实现方式：
+*	定义：
+*	作用：
+*	优点：
+*	缺点：
+*	使用场景：
+*	前提要点：
+*/
+
+public class InheritanceUnderstand {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+

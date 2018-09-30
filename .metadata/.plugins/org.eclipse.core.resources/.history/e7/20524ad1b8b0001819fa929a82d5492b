@@ -1,0 +1,28 @@
+package com.jb.backend.webserver.java.j2se.coretechnology.abstractclassandinterface;
+/**
+*@author Andy YE
+*@date 2018年9月5日上午11:02:57
+*
+*	实现方式：
+*	定义：使用abstract修饰的类
+*	作用：作为基类，俗称模板
+*	优点：
+*	缺点：
+*	使用场景：
+*   前提要点：
+*/
+
+public class AbstractclassAndInterface {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+
+
+
+
+

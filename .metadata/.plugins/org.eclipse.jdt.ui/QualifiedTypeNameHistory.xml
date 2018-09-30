@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="com.jb.backend.webserver.java.j2se.Recursion"/>
+<fullyQualifiedTypeName name="com.jb.backend.webserver.java.j2se.Person"/>
+<fullyQualifiedTypeName name="java.sql.Array"/>
+<fullyQualifiedTypeName name="com.jb.backend.junit.UnitTest"/>
+<fullyQualifiedTypeName name="com.jb.backend.webserver.java.j2se.Enumeration.WeekDay"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.net.NetworkInterface"/>
+<fullyQualifiedTypeName name="com.jb.backend.webserver.java.j2se.enumClass"/>
+<fullyQualifiedTypeName name="com.jb.backend.webserver.java.j2se.enumClass.Week"/>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="com.jb.backend.webserver.java.j2se.enumeration.EnumMapClass"/>
+<fullyQualifiedTypeName name="java.util.EnumMap"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="com.jb.backend.webserver.java.j2se.enumeration.EnumSetClass"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.util.EnumSet"/>
+<fullyQualifiedTypeName name="com.jb.backend.webserver.java.j2se.coretechnology.inheritance.InheritanceBase"/>
+<fullyQualifiedTypeName name="com.jb.backend.webserver.java.j2se.coretechnology.inheritance.InheritanceDerived"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="com.jb.backend.webserver.java.j2se.coretechnology.polymorphism.bird"/>
+<fullyQualifiedTypeName name="com.jb.backend.webserver.java.j2se.coretechnology.polymorphism.Bird"/>
+<fullyQualifiedTypeName name="com.jb.backend.webserver.java.j2se.coretechnology.polymorphism.Animals"/>
+<fullyQualifiedTypeName name="com.jb.backend.webserver.java.j2se.coretechnology.polymorphism.Horse"/>
+<fullyQualifiedTypeName name="com.jb.backend.webserver.java.j2se.coretechnology.encapsulation.Encapsulation"/>
+<fullyQualifiedTypeName name="com.jb.backend.webserver.java.j2se.coretechnology.encapsulation.TestReturn"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.jb.backend.webserver.java.j2se.coretechnology.overrideandoverload.overridedemo"/>
+<fullyQualifiedTypeName name="com.jb.backend.webserver.java.j2se.coretechnology.overrideandoverload.OverrideAndOverload"/>
+<fullyQualifiedTypeName name="com.jb.backend.webserver.java.j2se.coretechnology.abstractclassandinterface.AbstractBaseClass"/>
+<fullyQualifiedTypeName name="com.jb.backend.webserver.java.j2se.coretechnology.abstractclassandinterface.ImplementationAbstractBaseClass"/>
+<fullyQualifiedTypeName name="com.jb.backend.webserver.java.j2se.coretechnology.abstractclassandinterface.Student"/>
+<fullyQualifiedTypeName name="com.jb.backend.webserver.java.j2se.coretechnology.abstractclassandinterface.book.CD"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.jb.backend.webserver.java.j2se.coretechnology.abstractclassandinterface.Book.CD"/>
+<fullyQualifiedTypeName name="com.jb.backend.webserver.java.j2se.coretechnology.abstractclassandinterface.JavaCD"/>
+</qualifiedTypeNameHistroy>

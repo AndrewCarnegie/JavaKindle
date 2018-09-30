@@ -1,0 +1,95 @@
+package com.jb.backend.webserver.java.j2se.coretechnology.abstractclassandinterface;
+
+/**
+ * @author Andy YE
+ * @date 2018年9月5日上午11:02:57
+ *
+ *       实现方式： 定义：使用abstract修饰的类 作用：作为基类且只能作为基类使用，俗称模板 优点： 缺点： 使用场景： 前提要点：
+ *       a.抽象类和抽象方法必须使用abstract修饰 b.抽象类不可直接通过new实例化 c.抽象方法只申明，不实现，就是没有{}大括号部分
+ *       d.含有抽象方法的类必须被声明为抽象类，其子类必须实现抽象父类的所有抽象方法，否则不能被实例化
+ *       换句话说，如果子类中还有未实现的抽象方法，那么该子类仍然是抽象类 e.抽象类可以拥有构造方法，但是这些构造方法必须在子类中被调用
+ */
+
+public class AbstractclassAndInterface {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student s = new Student("Andy", 20, "student", "grade three");
+		System.out.println(s.talk());
+	}
+
+}
+
+/**
+ * 抽象类Person拥有： 属性：名字，年龄，职业 方法：说话
+ *
+ */
+abstract class Person {
+	private String name;
+	private int age;
+	private String occupation;
+
+	public Person(String name, int age, String occupation) {
+		this.name = name;
+		this.age = age;
+		this.occupation = occupation;
+	}
+
+	public abstract String talk();
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public String getOccupation() {
+		return occupation;
+	}
+
+	public void setOccupation(String occupation) {
+		this.occupation = occupation;
+	}
+
+}
+
+class Student extends Person {
+
+	private String grade;
+
+	public Student(String name, int age, String occupation) {
+		super(name, age, occupation);
+		// TODO Auto-generated constructor stub
+	}
+
+	public Student(String name, int age, String occupation, String grade) {
+		super(name, age, occupation);
+		this.grade = grade;
+	}
+
+	@Override
+	public String talk() {
+		// TODO Auto-generated method stub
+		return "Student--> \n name:" + this.getName() + "\n age:" + this.getAge() + "\n occupation:"
+				+ this.getOccupation() + "\n grade:" + this.getGrade();
+	}
+
+	public String getGrade() {
+		return grade;
+	}
+
+	public void setGrade(String grade) {
+		this.grade = grade;
+	}
+
+}

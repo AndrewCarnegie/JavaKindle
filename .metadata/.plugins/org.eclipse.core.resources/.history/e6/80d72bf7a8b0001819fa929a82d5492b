@@ -1,0 +1,26 @@
+package com.jb.backend.webserver.java.j2se.coretechnology.overrideandoverload;
+/**
+*@author Andy YE
+*@date 2018年9月4日下午4:52:44
+*
+*	实现方式：
+*	定义：
+*		override:覆写,父子类中的方法，其名字，参数个数，参数类型，返回值类型都一样，这时我们子类的该方法覆写了父类的方法
+*		overload:重载，
+*	作用：
+*	优点：
+*	缺点：
+*	使用场景：
+*   前提要点：
+*/
+
+public class OverrideAndOverload {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+
